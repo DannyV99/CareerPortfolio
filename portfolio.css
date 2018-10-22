@@ -1,0 +1,132 @@
+.modal-body, .modal-title{
+	color: black;
+	font-size: 15px;
+	color: grey;
+	font-family: 'Roboto Slab', serif;
+	text-shadow:
+	0px 0px 0 #000,  
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+	0px 0px 0 #000;
+}
+#title{
+	color: white;
+	font-family: 'Slackey', cursive;
+    text-shadow:
+    -5px -5px 0 #000,  
+  	2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+#icons{
+    position: relative;
+    top: 75px;
+    text-shadow:
+	0px 0px 0 #000,  
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+	0px 0px 0 #000;
+}
+
+.container{
+    height: 60%;
+    width: 60%;
+}
+
+.grid {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+.box {
+    color: white;
+    font-size: 4vw;
+    padding: 10px;
+}
+    
+.box:nth-child(1) {
+    text-align: center; 
+}
+
+.box:nth-child(2)
+.box:nth-child(3){
+    grid-column: span 6;
+    margin-bottom: -1000px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+        
+a.social {
+            text-decoration: none;
+        }
+     a{
+        text-decoration: none !important;
+        color: grey;
+    
+     }
+        
+body{
+    color: white;                
+    height: 100%;
+    font-family: 'Slackey', cursive;
+    text-shadow:
+        -1px -1px 0 #000,  
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;    
+}
+                  
+#three{
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-shadow:
+        0px 0px 0 #000,  
+        0px 0px 0 #000,
+        0px 0px 0 #000,
+        0px 0px 0 #000;
+}
+         
+img{
+    height: 400px;
+    width: 350px;
+}
+
+      @media screen and (max-width: 1000px) {
+              .grid {
+                display: inline;
+                }
+              .box {
+                margin: 10px 0;
+                margin-bottom: -100px;
+                }
+                .box:nth-child(1){
+                    display: grid;
+                    grid-column: span 12;
+                }
+                .box:nth-child(2){
+                    grid-column: span 6;
+                    margin-bottom: -1000px;
+                    text-align: center;
+                }
+                .container{
+                    height: 90%;
+                    width: 90%;
+                }
+                #myCarousel{
+                    position: relative;
+                    top: 100px;
+                    
+                }
+                #three{
+                    font-size-adjust: unset;
+                }
+                #icons{
+                    position: relative;
+                    top: 0px;
+                }
+                
+        
+            }
+    

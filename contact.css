@@ -1,0 +1,87 @@
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 4rem;
+    width: 17%;
+    margin-top: -3%;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: grey;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: grey;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+
+.modal-body, .modal-title{
+	color: black;
+	font-size: 15px;
+	color: grey;
+	font-family: 'Roboto Slab', serif;
+	text-shadow:
+	0px 0px 0 #000,  
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+	0px 0px 0 #000;
+}
+
+#icons{
+    position: relative;
+    bottom: 70px;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.grid {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+.box {
+    color: white;
+    padding: 10px;
+}
+        
+a.social {
+            text-decoration: none;
+        }
+     a{
+        text-decoration: none !important;
+        color: grey;
+    
+     }
+        
+body{
+    color: white;                
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+}
+
+             
