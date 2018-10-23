@@ -15,3 +15,10 @@ function onHover() {
 function offHover() {
     $("#menuImg").attr('src', 'images/daniel1.jpg');
 }
+
+$('#button').click(function () {
+    setTimeout(function () {
+        window.location.href = 'thankyou.html';
+        return false;
+    }, 1000);
+});
