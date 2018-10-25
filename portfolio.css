@@ -9,6 +9,14 @@
     0px 0px 0 #000,
 	0px 0px 0 #000;
 }
+.container{
+    height: 40%;
+    width: 50%;
+    align-self: center;
+}
+#surface{
+    text-align: center;
+}
 #title{
 	color: white;
 	font-family: 'Slackey', cursive;
@@ -20,18 +28,12 @@
 }
 #icons{
     position: relative;
-    bottom: 15px;
-    font-size: 4w;
+    top: 185px;;
     text-shadow:
 	0px 0px 0 #000,  
     0px 0px 0 #000,
     0px 0px 0 #000,
 	0px 0px 0 #000;
-}
-
-.container{
-    height: 60%;
-    width: 60%;
 }
 
 .grid {
@@ -43,19 +45,27 @@
     color: white;
     font-size: 4vw;
     padding: 10px;
+    text-align: center;
 }
     
 .box:nth-child(1) {
     text-align: center; 
+    grid-column: span 12;
+
 }
 
-.box:nth-child(2)
+/* .box:nth-child(2) */
 .box:nth-child(3){
-    grid-column: span 6;
+    grid-column: span 12;
     margin-bottom: -1000px;
     padding-bottom: 20px;
     text-align: center;
 }
+.box:nth-child(4) {
+    text-align: center; 
+    grid-column: span 12;
+}
+
         
 a.social {
             text-decoration: none;
@@ -67,10 +77,9 @@ a.social {
      }
         
 body{
-    color: white;                
+    color: white;   
+    padding: 40px;             
     height: 100%;
-    margin-top: 30px;
-
     font-family: 'Slackey', cursive;
     text-shadow:
         -1px -1px 0 #000,  
@@ -109,13 +118,14 @@ img{
                     grid-column: span 12;
                 }
                 .box:nth-child(2){
-                    grid-column: span 6;
+                    grid-column: span 12;
                     margin-bottom: -1000px;
                     text-align: center;
                 }
+                
                 .container{
                     height: 90%;
-                    width: 90%;
+                    width: 100%;
                 }
                 #myCarousel{
                     position: relative;
