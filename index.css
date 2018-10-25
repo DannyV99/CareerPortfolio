@@ -87,6 +87,7 @@ padding: 10px;
 body{
 	color: white;
 	height: 100%;
+	margin-top: 30px;
 	text-align: center;
 	font-family: 'Slackey', cursive;
 	text-shadow:
@@ -99,6 +100,7 @@ img{
 	height: 500px;
 	width: 450px;
 }
+
 
 
 
