@@ -28,12 +28,8 @@
 }
 #icons{
     position: relative;
-    top: 185px;;
-    text-shadow:
-	0px 0px 0 #000,  
-    0px 0px 0 #000,
-    0px 0px 0 #000,
-	0px 0px 0 #000;
+    top: 185px;
+    font-size: 4vw;
 }
 
 .grid {
@@ -81,11 +77,6 @@ body{
     padding: 40px;             
     height: 100%;
     font-family: 'Slackey', cursive;
-    text-shadow:
-        -1px -1px 0 #000,  
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        2px 2px 0 #000;    
 }
                   
 #three{
@@ -93,11 +84,6 @@ body{
     color: grey;
     text-align: center;
     font-family: 'Roboto Slab', serif;
-    text-shadow:
-        0px 0px 0 #000,  
-        0px 0px 0 #000,
-        0px 0px 0 #000,
-        0px 0px 0 #000;
 }
          
 img{
